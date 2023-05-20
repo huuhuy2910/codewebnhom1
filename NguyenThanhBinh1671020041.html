@@ -1,0 +1,241 @@
+<html>
+
+<head>
+    <title>Vui học qua Flashcard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: linear-gradient(to right, #f7f7f7, #0d0b0f);
+        }
+
+        nav {
+            background-color: black;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 999;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav li {
+            margin: 0 5px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 19px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-transform: uppercase;
+            transition: color 0.3s ease;
+            padding: 10px;
+            border-radius: 4px;
+            color: #fff;
+            text-decoration: none
+        }
+
+        nav a:hover {
+            background-color: #aeacac;
+            color: rgb(39, 38, 38);
+        }
+
+        .container {
+            margin-top: 70px;
+            display: flex;
+            grid-template-columns: 70% 30%;
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+
+        .maincontent {
+            width: 70%;
+            font-size: 20px;
+            border: 1px solid black;
+            margin: 5px;
+            height: auto;
+            margin-left: 10px;
+        }
+
+        .img {
+            width: 70%;
+        }
+
+        .rightcontent {
+            width: 30%;
+            border: 1px solid black;
+            margin: 5px;
+            height: 1750px;
+        }
+          a{
+            text-decoration: none;
+          }
+        .a {
+            display: inline-block;
+            padding: 10px 10px;
+            background-color: #aeacac;
+            color: #fff;
+            border-radius: 4px;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+
+        @media (max-width: 768px) {
+            nav a {
+                font-size: 10px;
+            }
+
+            nav ul {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            nav li {
+                margin: 5px;
+            }
+
+            .container {
+                flex-direction: column;
+            }
+
+            .maincontent {
+                font-size: 12px;
+                flex-basis: 100%;
+                width: 95%;
+                margin-right: 0;
+                margin-top: 40px;
+            }
+
+            .sidebar {
+                width: 100%;
+                position: static;
+                padding: 0;
+            }
+
+            .rightcontent {
+                border: 1px solid black;
+                margin-left: 10px;
+                width: 356px;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Các chủ đề học</a></li>
+            <li><a href="#">Dành cho thiếu nhi</a></li>
+            <li><a href="#">Đăng ký tham gia</a></li>
+            <li><a href="#">Giới thiệu</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="maincontent">
+            <p>Chúng tôi là công ty cung cấp các bài giảng, bài học Tiếng Anh bổ ích lý thú thông qua hình thức học dạng
+                thẻ học. Những bài học này được thiết kế theo dạng vừa chơi vừa học, hệ thống sẽ tự ghi nhớ quá trình
+                học của từng người để tối ưu các lần học sau sao cho người học dễ nhớ nội dung học nhất.</p>
+            <h1>Chủ đề xe cộ</h1>
+            <img class="img"
+                src="https://img.freepik.com/free-vector/bus-taxi-cyclist-driving-city-road-transport-bicycle-car-flat-vector-illustration-traffic-urban-lifestyle_74855-8261.jpg" />
+            <p>
+                Các thẻ học về các loại phương tiện di chuyển thông dụng hiện nay như ô tô, xe lửa, máy bay, tàu thuỷ,
+                ...
+            </p>
+            <a class="a" href="#">Trải nghiệm</a>
+            <h1>Chủ đề giờ giấc</h1>
+            <img class="img"
+                src="https://images.ctfassets.net/cnu0m8re1exe/5OAUQJ64AJKuXJ0ASc1pI3/13e9e0ce625471e42941d4206bc70796/shutterstock_271332740.jpg" />
+            <p>
+                Chủ đề gồm các từ, các mẫu câu để giúp người học nắm bắt được các khái niệm thời gian cơ bản như: bốn
+                thời điểm trong ngày sáng, trưa, chiều, tối và các mẫu câu tuỳ theo thời điểm trong ngày thông dụng.
+            </p>
+            <a class="a" href="#">Trải nghiệm</a>
+            <h1>Chào hỏi, hỏi thăm</h1>
+            <img class="img"
+                src="https://vietgle.vn/wp-content/uploads/2021/09/cau-chao-hoi-tieng-anh-hoi-tham-suc-khoe.jpg" />
+            <p>
+                Tập hợp các mẫu câu dùng để giao tiếp cơ bản cho tất cả mọi người. Khi mới gặp nhau ta sẽ chào thế nào ?
+                Khi gặp một người quen hỏi thăm ta sẽ nói ra sao ?
+            </p>
+            <a class="a" href="#">Trải nghiệm</a>
+            <h1>Chủ đề động vật</h1>
+            <img src="https://topicanative.edu.vn/wp-content/uploads/2019/12/con-vat-bang-tieng-anh.jpg" width="70%" />
+            <p>
+                Chúng tôi cung cấp các thẻ học về các con thú cưng các loài động vật sống gần gũi quanh ta như: chó,
+                mèo, gà, bò, ngựa, ... và các loài động vật sống trong hoang dã như hổ, sư tử, ...
+            </p>
+            <a class="a" href="#">Trải nghiệm</a>
+            <h1>Chủ đề ăn uống</h1>
+            <img class="img"
+                src="https://tuvaobep.com/wp-content/uploads/2021/05/mon-ngon-moi-ngay-mam-com-cho-gia-dinh.jpg" />
+            <p>
+                Bạn sẽ thấy hứng thú với các bài học về chủ đề ăn uống của chúng tôi. Những mẫu câu quen thuộc khi bạn
+                bước vào bàn ăn, tên những món ăn quen thuộc, khi ngồi vào bàn ăn ta thường trao đổi những gì, các gia
+                vị để tạo nên các món ăn, ...
+            </p>
+            <a class="a" href="#">Trải nghiệm</a>
+            <h1>Ban lãnh đạo công ty</h1>
+            <img width="300"
+                src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?w=2000" />
+            <p>Giám đốc công ty</p>
+            <img width="300"
+                src="https://img.freepik.com/free-photo/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair_285396-896.jpg" />
+            <p>Giám đốc tài chính</p>
+            <img width="300"
+                src="https://t4.ftcdn.net/jpg/02/82/72/09/360_F_282720917_7ZtAfEqEfA6CRT66imV9avGWXEg9w6Jt.jpg" />
+            <p>Giám đốc công nghệ</p>
+        </div>
+        <div class="rightcontent">
+            <h1>Dành cho thiếu nhi</h1>
+            <a href="#"><img class="img"
+                    src="https://suno.vn/blog/wp-content/uploads/2017/11/Top-5-x%C6%B0%E1%BB%9Fng-may-qu%E1%BA%A7n-%C3%A1o-r%E1%BA%BB-v%C3%A0-uy-t%C3%ADn-nh%E1%BA%A5t-TP.HCM-05-e1509684455474.jpg" /></a>
+            <p>Chủ đề quần áo, dày dép</p>
+            <a class="a" href="#">Tham gia ngay</a>
+            <h2>Chủ đề vui chơi</h2>
+            <img class="img"
+                src="https://cdnstepup.r.worldssl.net/wp-content/uploads/2020/09/t%E1%BB%AB-v%E1%BB%B1ng-ti%E1%BA%BFng-Anh-v%E1%BB%81-tr%C3%B2-ch%C6%A1i-1.jpg" />
+            <br />
+            <a class="a" href="#">Tham gia ngay</a>
+            <h2>Đồ dùng học tập</h3>
+                <img class="img"
+                    src="https://bizweb.dktcdn.net/100/386/441/files/do-dung-hoc-tap-can-thiet-cho-lop-7-1.jpg?v=1623138620510" />
+                <br />
+                <a class="a" href="#">Tham gia ngay</a>
+                <h1>Các bài học nhiều người quan tâm</h1>
+                <a href="#"><img class="img"
+                        src="https://duhoc.thanhgiang.com.vn/sites/default/files/mau-cau-giao-tiep-tieng-nhat-hang-ngay.jpg" /></a>
+                <p>Giao tiếp hàng ngày</p>
+                <a class="a" href="#">Tham gia ngay</a>
+                <h2>Thẻ học cho kinh doanh</h2>
+                <img class="img" src="https://philonline.vn/upload/images/idioms-chu-de-kinh-doanh.jpg" />
+                <br />
+                <a class="a" href="#">Tham gia ngay</a>
+        </div>
+    </div>
+
+    <footer>
+        @ 2023 trường học ngôn ngữ vừa học vừa chơi cho thiếu nhi
+    </footer>
+</body>
+
+</html>
